@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron'
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, grey, #0a0a0a);
+
+}
+.calculator{
+    border: 10px outset rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #0a0a0a, rgb(86, 86, 86));    
+    box-shadow: 10px 10px 5pxpx rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+}
+input{
+    width: 320px;
+    padding: 20px;
+    background: rgb(152, 161, 146);
+    border-radius: 10px;
+    /* border: none; */
+    margin: 20px 20px 20px 25px;
+    border: 5px black inset;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+
+}
+input::placeholder{
+    color: #000000;
+
+}
+button{
+    border: 2px outset black;
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    filter: blur();
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -5px -5px  10px rgb(0, 0, 0, 0.7),
+                5px 5px 10px rgb(56, 56, 56);
+    /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+}
+.eql{
+    background-color: orangered;
+}
+.opr{
+    color: rgb(85, 250, 110);
+    font-weight: bold;
+}
+
+hr{
+    margin: 20px;
+    /* margin-left: 50px; */
+    width: 90%;
+    height: 0.5px;
+    background-color: #0a0a0a;
+}
+
+button:active{
+    border: 2px outset black;
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.7),
+     -2px -2px 10px rgba(97, 96, 96, 0.1);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+ 
